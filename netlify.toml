@@ -1,0 +1,8 @@
+[build]
+  publish = "."                # le dossier public (où se trouve index.html)
+  functions = "netlify/functions"  # dossier des fonctions serverless
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
